@@ -1,0 +1,9 @@
+@media screen and ( max-width: 812px ) {
+    /* adaptatin de la largeur pour téléphone */
+    main {
+        width: var(--larg);
+    }
+    #sec_nv1 img {
+        display: none;
+    }
+}
