@@ -1,8 +1,8 @@
 caches.open("pwa-assets")
 .then(cache => {
-  cache.add("stylD.css"); 
-  cache.add("stylP.css");
-  cache.addAll(["stylD.css", "stylP.css", "app.js"]); 
+  cache.add("style_D.css"); 
+  cache.add("style_R.css");
+  cache.addAll(["style_D.css", "style_R.css", "app.js"]); 
   cache.add("images/olivier.avif");
   cache.add("images/astro.avif");
   cache.add("images/blue.avif");
