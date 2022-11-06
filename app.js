@@ -1,20 +1,20 @@
 caches.open("pwa-assets")
 .then(cache => {
+  cache.add("stylD.css"); 
+  cache.add("stylP.css");
   cache.addAll(["stylD.css", "stylP.css", "app.js"]); 
-  cache.addAll([
-    "images/olivier.avif",
-    "images/astro.avif",
-    "images/blue.avif",
-    "images/desk.avif",
-    "images/enigma.avif",
-    "images/milk.avif",
-    "images/paint.avif",
-    "images/tem.avif",
-    "images/res_astro.avif",
-    "images/res_blue.avif",
-    "images/res_desk.avif",
-    "images/res_enigma.avif",
-    "images/res_milk.avif",
-    "images/res_paint.avif"
-  ]);
+  cache.addAll(["images/olivier.avif");
+  cache.add("images/astro.avif");
+  cache.add("images/blue.avif");
+  cache.add("images/desk.avif");
+  cache.add("images/enigma.avif");
+  cache.add("images/milk.avif");
+  cache.add("images/paint.avif");
+  cache.add("images/tem.avif");
+  cache.add("images/res_astro.avif");
+  cache.add("images/res_blue.avif");
+  cache.add("images/res_desk.avif");
+  cache.add("images/res_enigma.avif");
+  cache.add("images/res_milk.avif");
+  cache.add("images/res_paint.avif");
 });
