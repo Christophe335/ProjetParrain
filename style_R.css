@@ -1,9 +1,480 @@
 @media screen and ( max-width: 812px ) {
     /* adaptatin de la largeur pour téléphone */
     main {
-        width: var(--larg);
+        width: 23.4375rem;
+    }
+    /* responsive section niveau 1 */
+    #nv1 {
+        background: url("data:image/svg+xml,%3Csvg width='22' height='956' viewBox='0 0 44 956' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M119.767 956C116.354 954.718 112.917 952.921 109.55 950.658C105.632 948.028 101.693 944.683 97.8447 940.729C93.9449 936.724 90.0383 931.985 86.2339 926.647C82.0405 920.764 77.9063 914.307 73.9494 907.456C69.9806 900.586 66.0895 893.148 62.3832 885.351C58.661 877.518 55.0323 869.125 51.6 860.405C48.1477 851.636 44.804 842.311 41.6614 832.691C28.7397 793.109 18.6278 746.969 11.6111 695.547C9.81526 682.385 8.22147 668.867 6.83707 655.057C5.43408 641.032 4.24767 626.73 3.28345 612.218C2.29866 597.349 1.54124 582.291 1.01469 567.115C0.473258 551.42 0.165575 535.63 0.092999 519.814C0.020281 503.319 0.183284 486.822 0.581345 470.389C0.987187 453.515 1.64646 436.193 2.54142 418.908C3.45026 401.355 4.62614 383.368 6.03695 365.447C7.46987 347.24 9.18346 328.611 11.1302 310.076C14.893 274.246 19.8204 236.905 25.7754 199.09C31.863 160.658 38.5957 123.641 45.9349 88.2498C53.5283 51.5357 61.6823 16.4163 70.3579 -16.9409C78.9931 -50.2211 88.1539 -81.625 97.7933 -110.992C100.264 -118.499 102.786 -125.903 105.289 -133H119.767V955.999V956Z' fill='%231E5DE9' fill-opacity='0.07'/%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat no-repeat;
+            background-size: 14%;
+            background-position: 21.25rem;
+            
     }
     #sec_nv1 img {
         display: none;
     }
+
+    #nv1_g {
+        margin-top: 3.625rem;
+        margin-left: 1.5rem;
+    }
+
+    /* responsiv section niveau 1 - partie Header */
+    #nv1_header {
+        grid-template-columns: 17.25rem 3.0625rem;
+        padding: 1.375rem 1.5rem 0 1.5rem;
+    }
+
+    #tel, #tel-txt, #mail, #mail-txt {
+        display: none;
+    }
+
+    #nv1_tt1 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #nv1_burg {
+        grid-column: 2;
+        grid-row: 1;
+        
+    }
+
+    #nv1_burg span {
+        background-color: #fff;
+        width: 1.1875rem;
+        margin: 0.375rem 0;
+    }
+
+    #nv1_burg {
+        width: 2.125rem;
+        height: 2.4375rem;
+        padding-left: 0.875rem;
+        padding-top: 0.625rem;
+        background-color: var(--orange);
+        border-radius: 1.5313rem;
+        margin-top: 0;
+    }
+
+    /* responsive Section niveau 1 - partie section interne */
+    #nv1_h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #nv1_crx1 {
+        margin: 0;
+        position: absolute;
+        visibility: visible;
+        color: #F87F28;
+        font-size: 2rem;
+        top: 19.6875rem;
+        left: 4.4375rem;
+    }
+
+    #nv1_crx2 {
+        margin: 0;
+        position: absolute;
+        visibility: visible;
+        color: #ffffff;
+        font-size: 1.875rem;
+        top: 25rem;
+        left: 18.75rem;
+    }
+
+    #nv1_tt3 {
+        margin-top: 1.5625rem;
+        font-size: 2.5rem;
+        line-height: 4.0625rem;
+    }
+
+    #nv1_tt4 {
+        line-height: 4.6875rem;
+    }
+
+    #nv1_tt5 {
+        margin-right: var(--marge); 
+    }
+
+    #nv1_client {
+        margin-top: 4.1875rem;
+        margin-left: var(--marge);
+        text-align: left;
+    }
+/* responsive Section niveau 1 - partie section footer des icones clients */
+    footer {
+        display: block;
+    }
+
+    footer #nv1_cl1 svg {
+        padding: 0 2.1875rem;
+    }
+    footer #nv1_cl2 svg:nth-child(1) {
+        padding: 0 0.75rem 0 1.875rem;
+        width: 7.8125rem;
+    }
+    footer #nv1_cl2 svg:nth-child(2) {
+        padding: 0 1.5rem 0 0.75rem;
+        width: 9.0625rem;
+    }
+    footer #nv1_cl3 svg:nth-child(1) {
+        padding: 0 0.75rem 0 1.75rem;
+        width: 8.75rem;
+        margin-bottom: 1.875rem;
+    }
+    footer #nv1_cl3 svg:nth-child(2) {
+        padding: 0 1.75rem 0 0.75rem;
+        width: 8.75rem;
+        margin-bottom: 1.875rem;
+    }
+
+    /* responsive section niveau 2 - partie header */
+    #nv2 {
+        background: none;
+    }
+    #nv2 .hh {
+        padding-top: 0;
+        margin-top: 0;
+       text-align: left;
+       margin-bottom: 2rem;
+    }
+
+    #nv2_header {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    #nv2_header .bar4::after {
+        left: 0rem;
+    } 
+    
+    #nv2_tt {
+        margin: 0 0 2.1875rem 0;
+        text-align: left;
+    }
+
+    #nv2_sec p {
+        margin-right: 1.5rem;
+    }
+
+    /* responsive section niveau 2 - partie section interne */
+    #nv2_sec {
+        padding: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3.25rem 3.4375rem 5.3125rem 3.25rem 3.4375rem 5.3125rem 3.25rem 3.4375rem 5.3125rem 3.25rem 3.4375rem 5.3125rem;
+        margin: 0rem 1.5rem 0rem 1.5rem;
+    }
+    #nv2_ico1, #nv2_bk1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #nv2_t1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #nv2_tt1 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    #nv2_ico2, #nv2_bk2 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    #nv2_t2 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    #nv2_tt2 {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    
+    #nv2_ico3, #nv2_bk3 {
+        grid-column: 1;
+        grid-row: 7;
+    }
+    #nv2_t3{
+        grid-column: 1;
+        grid-row: 8;
+    }
+    #nv2_tt3{
+        grid-column: 1;
+        grid-row: 9;
+    }
+    
+    #nv2_ico4, #nv2_bk4 {
+        grid-column: 1;
+        grid-row: 10;
+    }
+    #nv2_t4 {
+        grid-column: 1;
+        grid-row: 11;
+    }
+    #nv2_tt4 {
+        grid-column: 1;
+        grid-row: 12;
+    }
+
+    /* responsive section niveau 2 - partie header */
+    #nv3 {
+        background: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #nv3_header {
+        margin: 0 3.125rem 2.5625rem 1.5rem;
+    }
+
+
+    /* affichage des images nécessaires */
+    .mobil {
+        visibility: visible;
+    }
+    .full {
+        visibility: hidden;
+    }
+
+    /* section niveau 3 - div de droite définition de la grille */
+#nv3_d {
+   
+    grid-template-columns: 1fr;
+    grid-template-rows: 10.6875rem 16.5rem 16.5rem 16.5rem 16.5rem 16.5rem;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    margin: 0 1.5rem 5.1875rem 1.5rem;
+}
+
+#mob1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+#mob2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+#mob3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+#mob4 {
+    grid-column: 1;
+    grid-row: 4;
+}
+#mob5 {
+    grid-column: 1;
+    grid-row: 5;
+}
+#mob6 {
+    grid-column: 1;
+    grid-row: 6;
+}
+/* responsive  section niveau 4  */
+#nv4 {
+    background: none;
+}
+
+#nv4_header {
+    grid-template-columns: 3.1875rem 16.9375rem;
+    grid-template-rows: 3.75rem 12.5rem 2.125rem 5rem 2.125rem 5rem 2.125rem 5rem 3rem;
+    margin: 0rem var(--marge) 0 var(--marge);
+
+}
+.barGrey::after {
+    width: 0;
+}
+
+#nv4_h1 {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+#nv4_tt1 {
+    margin-top: 1.5625rem;
+    grid-column: 1/3;
+    grid-row: 2;
+    margin-bottom: 0.0625rem;
+    padding-right: 3.75rem;
+}
+#nv4_ico1 {
+    grid-column: 1;
+    grid-row: 3;
+}
+#nv4_tt2 {
+    grid-column: 2;
+    grid-row: 3;
+}
+#nv4_tt3 {
+    grid-column: 2;
+    grid-row: 4;
+}
+#nv4_tt4 {      /* texte positionné à gauche et caché */
+    display: none;
+    grid-column: 2;
+    grid-row: 4;
+}
+#nv4_ico2 {
+    grid-column: 1;
+    grid-row: 5;
+}
+#nv4_tt5 {
+    grid-column: 2;
+    grid-row: 5;
+}
+#nv4_tt6 {
+    grid-column: 2;
+    grid-row: 6;
+}
+#nv4_tt7 {      /* texte positionné à gauche et caché */
+    display: none;
+    grid-column: 2;
+    grid-row: 6;
+}
+#nv4_ico3 {
+    grid-column: 1;
+    grid-row: 7;
+}
+#nv4_tt8 {
+    grid-column: 2;
+    grid-row: 7;
+}
+#nv4_tt9 {
+    grid-column: 2;
+    grid-row: 8;
+}
+#nv4_tt10 {      /* texte positionné à gauche et caché */
+    display: none;
+    grid-column: 2;
+    grid-row: 8;
+}
+#nv4_bt {
+    margin: 0rem 7.5rem 0 0;
+    grid-column: 1/3;
+    grid-row: 9;
+}
+
+/* responsive section niveau 5 */
+#nv5 {
+    display: none;
+    flex-direction: column;  /* pour ne pas déborder en responsive */
+    background: none;
+}
+#nv5_g {   /* réduction largeur de l'ancienne grille pour ne pas déborder en responsive */
+    grid-template-columns: 0.0625rem 0.0625rem 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+    margin: 0;
+}
+#nv5_header { /* pour ne pas déborder en responsive */
+    margin: 0;
+}
+
+/* responsive Section niveau 6 */
+#nv6 {
+    background: none;
+    
+}
+#nv6_header {
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    text-align: left;
+    padding-top: 0.0625rem;
+}
+#nv6_header .bar4::after {
+    left: 0rem;
+} 
+
+#nv6_c {
+    
+    grid-template-columns: 18.75rem;
+    grid-template-rows: 18.125rem 1.9375rem 1.625rem;
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    padding-bottom: 2.8125rem;
+    
+}
+#nv6_img, #nv6_guill::before, .bar3::after {
+    display: none;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#nv6_tt1 {
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+
+
+#nv6_tt2 {
+    grid-column: 1;
+    grid-row: 2;
+    
+}
+#nv6_tt3 {
+    grid-column: 1;
+    grid-row: 3;
+    
+}
+/* responsive Section niveau 7 */
+#nv7 {
+    background: none;
+    display: block;
+    padding-top: 0;
+    /* header */
+}
+#nv7_header {
+    padding-top: 0rem;
+    margin: 0 1.5rem;
+}
+/* partie de droite */
+#nv7_d {
+    
+    grid-template-columns: 18.75rem;
+    grid-template-rows: 1.6875rem 5.5rem 9.625rem 1.6875rem 2.75rem 9.0625rem 1.6875rem 4.375rem 3.75rem;
+    margin: 0 1.5rem;
+}
+
+#nv7_tt6 {
+    padding-right: 6.875rem;
+}
+
+/* responsive Section Footer niveau 8 */
+#nv8 {
+    background: none;
+}
+
+#nv8_header {
+    padding-top: 0;
+    margin: 0 1.5rem;
+}
+
+#nv8_g > .nv8_t2 {
+    font-size: 1rem;
+}
+
+#nv8_d {
+    margin: 0 1.5rem 2.0625rem 1.5rem;
+}
+
+#nv8_tt8 {
+    display: none;
+}
+
+#nv8_tt11 {
+    margin-bottom: 2.125rem;
+    margin-right: 3.5625rem;
+}
+
+#nv8_line1 {
+    flex-direction: column;
+}
+
+#nv8_inpt1, #nv8_inpt2, #nv8_inpt3 {
+    margin-right: var(--marg);
+    width: 100%;
+}
+
+#nv8_lab2 { /* positionne le texte label du cadre qui entoure l'input "email" */
+    top: 5.1875rem;
+    left: 0.75rem;
+}
 }
