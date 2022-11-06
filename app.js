@@ -3,7 +3,7 @@ caches.open("pwa-assets")
   cache.add("style_D.css"); 
   cache.add("style_R.css");
   cache.addAll(["style_D.css", "style_R.css", "app.js"]); 
-  cache.add("images/olivier.avif");
+  cache.add("images/olivier.webp");
   cache.add("images/astro.avif");
   cache.add("images/blue.avif");
   cache.add("images/desk.avif");
