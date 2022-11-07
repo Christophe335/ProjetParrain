@@ -1,3 +1,6 @@
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register("/serviceworker.js");
+}
 caches.open("pwa-assets")
 .then(cache => {
   cache.add("style_D.css"); 
