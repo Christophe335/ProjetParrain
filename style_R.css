@@ -1,7 +1,7 @@
 @media screen and ( max-width: 812px ) {
     /* adaptatin de la largeur pour téléphone */
     main {
-        width: 23.4375rem;
+        width: min(100%, 23.4375rem);
     }
     /* responsive section niveau 1 */
     #nv1 {
@@ -12,6 +12,8 @@
             
     }
     #sec_nv1 img {
+        width: 0rem;
+        height: 0rem;
         display: none;
     }
 
@@ -236,42 +238,20 @@
     }
     .full {
         visibility: hidden;
+        width: 1px;
+        height: auto;
     }
 
     /* section niveau 3 - div de droite définition de la grille */
 #nv3_d {
-   
-    grid-template-columns: 1fr;
-    grid-template-rows: 10.6875rem 16.5rem 16.5rem 16.5rem 16.5rem 16.5rem;
-    row-gap: 1.5rem;
-    column-gap: 1.5rem;
+    display: block;
+    margin: 0;
     margin: 0 1.5rem 5.1875rem 1.5rem;
 }
+#nv3_d img {
+    margin-bottom: 24px;
+}
 
-#mob1 {
-    grid-column: 1;
-    grid-row: 1;
-}
-#mob2 {
-    grid-column: 1;
-    grid-row: 2;
-}
-#mob3 {
-    grid-column: 1;
-    grid-row: 3;
-}
-#mob4 {
-    grid-column: 1;
-    grid-row: 4;
-}
-#mob5 {
-    grid-column: 1;
-    grid-row: 5;
-}
-#mob6 {
-    grid-column: 1;
-    grid-row: 6;
-}
 /* responsive  section niveau 4  */
 #nv4 {
     background: none;
@@ -445,6 +425,11 @@
 #nv8_header {
     padding-top: 0;
     margin: 0 1.5rem;
+}
+
+#nv8_g {
+    grid-template-columns: 4.125rem 16.3125rem;
+    grid-template-rows: 1.875rem 2rem 5.5625rem 1.875rem 5.3125rem 1.875rem 5.3125rem;
 }
 
 #nv8_g > .nv8_t2 {
