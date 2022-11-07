@@ -16,7 +16,7 @@
             "sizes":"16x16",
             "type":"image/png"},
         {
-            "src":"images/icons/favicon.png",
+            "src":"images/icons/icon_m.png",
             "sizes":"16x16",
             "type":"image/png",
             "purpose": "maskable"},

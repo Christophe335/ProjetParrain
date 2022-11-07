@@ -1,6 +1,16 @@
-const cacheName = "MonGrandCache_v1";
-
-const precacheAssets = [
+const precacheName ='precache-parrain';
+const precacheFiles = [
+    "style_D.css",
+    "style_R.css",
+    "app.js",
+    "images/icons/android-chrome-192x192.png",
+    "images/icons/android-chrome-512x512.png",
+    "images/icons/apple-touch-icon-precomposed.png",
+    "images/icons/apple-touch-icon.png",
+    "images/icons/favicon-16x16.png",
+    "images/icons/favicon-32x32.png",
+    "images/icons/favicon.png",
+    "images/icons/icon_m.png",
     "images/olivier.webp",
     "images/tem.avif",
     "images/astro.avif",
@@ -17,25 +27,12 @@ const precacheAssets = [
     "images/res_paint.avif"
 ];
 
-self.addEventListener('install', (event) => {
-    // Precache assets on install
-    event.waitUntil(caches.open(cacheName).then((cache) => {
-      return cache.addAll(precachedAssets);
-    }));
-  });
+addEventListener('install', event => {
+
+    
+    event.waitUntil(
+        caches.open(precacheName)
+        .then(cache => cache.addAll(precacheFiles))
+     );
   
-  self.addEventListener('fetch', (event) => {
-    // Is this one of our precached assets?
-    const url = new URL(event.request.url);
-    const isPrecachedRequest = precachedAssets.includes(url.pathname);
-  
-    if (isPrecachedRequest) {
-      // Grab the precached asset from the cache
-      event.respondWith(caches.open(cacheName).then((cache) => {
-        return cache.match(event.request.url);
-      }));
-    } else {
-      // Go to the network
-      return;
-    }
   });

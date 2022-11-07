@@ -1,4 +1,4 @@
-if ('serviceWorker' in navigator) {
+if (navigator && navigator.serviceWorker) {
   navigator.serviceWorker.register("/serviceworker.js");
 }
 caches.open("pwa-assets")
