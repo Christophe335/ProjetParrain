@@ -1,5 +1,5 @@
 if (navigator && navigator.serviceWorker) {
-  navigator.serviceWorker.register("/serviceworker.js");
+  navigator.serviceWorker.register("serviceworker.js");
 }
 caches.open("pwa-assets")
 .then(cache => {
