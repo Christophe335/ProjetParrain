@@ -887,7 +887,7 @@ a {
 #nv8_header {
     padding-top: 11.875rem;
     margin: 0 11.25rem 9.5625rem 25.5rem;
-    width: 26rem;
+    /* width: 416px; */
 }
 /* en-dessous du header */
 #nv8_g {
